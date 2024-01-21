@@ -1,0 +1,31 @@
+.skills__container{
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    row-gap: 40px;
+
+}
+.progress__circle{
+    width: 120px;
+    height:120px ;
+    
+
+}
+.skills{
+    /* margin-left: 10%; */
+    margin-top: 5%;
+}
+
+.CircularProgressbar-path{
+    stroke: var(--first-color)!important;
+    stroke-linecap: butt !important;
+}
+.CircularProgressbar-trail{
+    stroke: var(--container-color)!important;
+}
+
+.CircularProgressbar-text{
+    fill: var(--title-color) !important;
+    font-family: var(--second-font);
+    font-size: var(--large-font-size);
+}
+
